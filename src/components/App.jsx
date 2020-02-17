@@ -1,14 +1,18 @@
-import React from "react";
+
 import Form from "./Form";
+import UserChoice from './UserChoice';
 
-var userIsRegistered = true;
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="container">
-      <Form />
-    </div>
-  );
+class App extends Component {
+   
+  render() {
+    return (
+      <div>
+        <UserChoice />
+      </div>
+    );
+  }
 }
 
-export default App;
+export default App
